@@ -21,8 +21,8 @@
       </mj-column>
     </mj-section>
     <mj-section>
-        <mj-column >
-            <mj-text>
+        <mj-column>
+            <mj-text >
              <h2>1. Servicios de Montaje y Equipamiento del Stand:</h2>
             </mj-text>
             <mj-divider  />
@@ -42,7 +42,7 @@
                 web para que tengas más impacto.
             </mj-text>
             <mj-text>
-             <h2>3. Servicios Logísticos y Operativos:</h2>
+             <h2>3. Servicios de Logísticos y Operativos:</h2>
             </mj-text>
             <mj-divider  />
             <mj-text align="justify" font-size="14px">
@@ -62,6 +62,11 @@
             </mj-text>
 
        
+    </mj-section>
+    <mj-section>
+        <mj-column >
+            <mj-image align="right" width="100px" border-radius="17px" border="3px solid #2d2e80" src="https://www.expojove.com/wp-content/uploads/2022/11/logoexpo22.png" alt="" />
+        </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
