@@ -1,0 +1,67 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image width="800px" src="https://www.valencia.es/documents/20142/26071427/1213+Expojove.png/8444b9ec-82ea-2df4-5207-02fb452164aa?t=1734097173251" alt="" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%" background-color="#003087">
+        <mj-text font-size="20px" color="white">
+          <b>La navidad está muy cerca prepárate para lo que se viene</b>
+        </mj-text>
+        <mj-divider border-color="white" />
+        <mj-text font-size="16px" color="white">
+          ¡Hola!<br />
+          Desde <b>ExpoJove</b>, queremos que tu experiencia sea inmejorable. Hemos preparado esta guía rápida para que conozcas y solicites todos los servicios a tu disposición. Potencia tu stand y conecta de forma efectiva con nuestra
+          audiencia.
+        </mj-text>
+
+        <mj-image align="center" width="450px" src="https://7televalencia.com/wp-content/uploads/2022/11/7televalencia-expojove-5.jpg" alt="" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+        <mj-column >
+            <mj-text>
+             <h2>1. Servicios de Montaje y Equipamiento del Stand:</h2>
+            </mj-text>
+            <mj-divider  />
+            <mj-text align="justify" font-size="14px">
+                Expojove te permite elegir si quieres el espacio solo para tu diseño o 
+                un stand ya preparado con lo básico. Además, puedes alquilar fácilmente 
+                el mobiliario y el equipo extra que necesites para tu espacio.
+            </mj-text>
+            <mj-text>
+             <h2>2. Servicios de Promoción y Visibilidad:</h2>
+            </mj-text>
+            <mj-divider  />
+            <mj-text align="justify" font-size="14px">
+                Tu empresa aparecerá en el catálogo oficial de la feria, llegando a 
+                todos los visitantes. También puedes proponer talleres o espectáculos, 
+                y te ayudamos a difundir tu participación en nuestras redes sociales y 
+                web para que tengas más impacto.
+            </mj-text>
+            <mj-text>
+             <h2>3. Servicios Logísticos y Operativos:</h2>
+            </mj-text>
+            <mj-divider  />
+            <mj-text align="justify" font-size="14px">
+                Te proporcionamos las acreditaciones necesarias para tu equipo y 
+                garantizamos la seguridad general del recinto. Si lo necesitas, también 
+                hay opciones para almacenar tus materiales y coordinar su transporte 
+                para que todo esté listo a tiempo.
+            </mj-text>
+            <mj-text>
+             <h2>4. Soporte y Asesoramiento:</h2>
+            </mj-text>
+            <mj-divider  />
+            <mj-text align="justify" font-size="14px">
+                Tendrás un gestor comercial asignado para resolver todas tus dudas y ayudarte en 
+                cada paso. Además, nuestra plataforma online de expositores te permite gestionar 
+                tus servicios y acceder a información clave de forma sencilla.
+            </mj-text>
+
+       
+    </mj-section>
+  </mj-body>
+</mjml>
