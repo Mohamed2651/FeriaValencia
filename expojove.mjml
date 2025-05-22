@@ -1,20 +1,20 @@
 <mjml>
-  <mj-body>
+  <mj-body background-color="#D1F8EF">
     <mj-section>
       <mj-column width="100%">
-        <mj-image width="800px" src="https://www.valencia.es/documents/20142/26071427/1213+Expojove.png/8444b9ec-82ea-2df4-5207-02fb452164aa?t=1734097173251" alt="" />
+        <mj-image width="800px" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_Email_Expojove_2024.jpg" alt="" />
       </mj-column>
     </mj-section>
     <mj-section>
-      <mj-column width="100%" background-color="#003087">
-        <mj-text font-size="20px" color="white">
+      <mj-column width="100%" background-color="#578FCA">
+        <mj-text font-size="20px">
           <b>La navidad está muy cerca prepárate para lo que se viene</b>
         </mj-text>
-        <mj-divider border-color="white" />
-        <mj-text font-size="16px" color="white">
+        <mj-divider />
+        <mj-text font-size="16px">
           ¡Hola!<br />
           Desde <b>ExpoJove</b>, queremos que tu experiencia sea inmejorable. Hemos preparado esta guía rápida para que conozcas y solicites todos los servicios a tu disposición. Potencia tu stand y conecta de forma efectiva con nuestra
-          audiencia.
+          audiencia. 
         </mj-text>
 
         <mj-image align="center" width="450px" src="https://7televalencia.com/wp-content/uploads/2022/11/7televalencia-expojove-5.jpg" alt="" />
@@ -23,7 +23,7 @@
     <mj-section>
         <mj-column>
             <mj-text >
-             <h2>1. Servicios de Montaje y Equipamiento del Stand:</h2>
+             <h2>1. Montaje y Equipamiento del Stand:</h2>
             </mj-text>
             <mj-divider  />
             <mj-text align="justify" font-size="14px">
@@ -32,7 +32,7 @@
                 el mobiliario y el equipo extra que necesites para tu espacio.
             </mj-text>
             <mj-text>
-             <h2>2. Servicios de Promoción y Visibilidad:</h2>
+             <h2>2. Promoción y Visibilidad:</h2>
             </mj-text>
             <mj-divider  />
             <mj-text align="justify" font-size="14px">
