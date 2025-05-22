@@ -1,9 +1,8 @@
 <mjml>
-    
     <mj-body background-color="#3b79df">
         <mj-section>
             <mj-column>
-                <mj-text color="white">
+                <mj-text >
                     <h2>¡Inversión Histórica en Cevisama 2025: Más Compradores 
                     Internacionales para Tu Negocio!</h2>
                 </mj-text>
@@ -11,14 +10,14 @@
             </mj-column>
         </mj-section>
         <mj-section>
-            <mj-column>
-                <mj-text align="justify" color="white">
+            <mj-column background-color="#FFD63A">
+                <mj-text align="justify">
                     <h3 font-size="">Estamos volcando recursos como nunca antes para asegurar 
                     que tu stand en Cevisama 2025 sea un imán para los decisores 
                     de compra más relevantes de todo el mundo.</h2>
                 </mj-text>
-                <mj-divider border-color="white" />
-                <mj-text font-size="18px" align="justify" color="white">
+                <mj-divider/>
+                <mj-text font-size="18px" align="justify" >
                     Estamos muy emocionados de compartir noticias que marcarán 
                     un antes y un después para tu participación en Cevisama 2025. 
                     En nuestro compromiso constante de maximizar el retorno de tu 
@@ -30,44 +29,44 @@
             </mj-column>
         </mj-section>
         <mj-section>
-            <mj-column >
-                <mj-text color="white">
+            <mj-column background-color="#FFD63A" >
+                <mj-text>
                     <h3>¿Qué significa esta inversión para ti?</h3>
                     Hemos ampliado y mejorado nuestras iniciativas para que tu stand en Cevisama 2025 atraiga 
                     a los decisores clave del sector a nivel internacional. Aquí te detallamos cómo esta inversión 
                     se traduce en beneficios directos para tu empresa:
                 </mj-text>
-                <mj-divider border-color="white" />
-                <mj-text color="white">
+                <mj-divider/>
+                <mj-text >
                     🌍 Programa de Compradores VIP Reforzado<br>
                     ¡Hemos triplicado el presupuesto para traer a un número sin precedentes 
                     de arquitectos, interioristas y distribuidores clave! Estos profesionales, 
                     con alta capacidad de inversión, provienen de mercados estratégicos globales, 
                     llegando a Cevisama con el objetivo claro de hacer negocios.
                 </mj-text>
-                <mj-divider border-color="white" />
-                <mj-text color="white" align="justify" >
+                <mj-divider />
+                <mj-text  align="justify" >
                     🤝 Delegaciones Comerciales Estratégicas<br>
                     Hemos reforzado alianzas para organizar delegaciones comerciales cualificadas. Estos grupos visitarán Cevisama con una agenda clara de reuniones pre-establecidas, maximizando tu tiempo y garantizando encuentros directos con compradores genuinamente interesados en tu oferta.
                 </mj-text>
-                <mj-divider border-color="white" />
-                <mj-text color="white" align="justify"> 
+                <mj-divider />
+                <mj-text  align="justify"> 
                     🚀 Campaña de Marketing Global de Impacto<br>
                     Lanzaremos una campaña de marketing intensificada en mercados internacionales 
                     prioritarios. Con publicidad segmentada y presencia en medios especializados, 
                     aseguraremos que Cevisama 2025 y tu marca estén en la mente de cada comprador 
                     potencial, dirigiéndolos directamente a tu stand.
                 </mj-text>
-                <mj-divider border-color="white" />
-                <mj-text color="white" align="justify">
+                <mj-divider />
+                <mj-text align="justify">
                     🔗 Facilitadores de Negocio y Conexión Directa<br>
                     Contaremos con un equipo dedicado a la identificación y cualificación de compradores internacionales. Esto incluye acceso a herramientas de matchmaking avanzadas y agendas personalizadas, para que tus encuentros sean lo más productivos posible y encuentres las conexiones perfectas.
                 </mj-text>
             </mj-column>
         </mj-section>
         <mj-section>
-            <mj-column>
-                <mj-text color="white" align="justify">
+            <mj-column background-color="#FFD63A">
+                <mj-text  align="justify">
                     <h3>Tu éxito es nuestra misión</h3>
                     Esta inversión es un reflejo de nuestra confianza en el potencial de 
                     tu negocio y en el de Cevisama como plataforma global. Queremos 
@@ -78,8 +77,8 @@
             </mj-column>
         </mj-section>
         <mj-section>
-            <mj-column>
-                <mj-text color="white" align="justify">
+            <mj-column background-color="#FFD63A">
+                <mj-text  align="justify">
                     <h3>¿Listo para aprovechar al máximo esta oportunidad?</h3>
                     Te animamos a que comiences a planificar tu participación y prepares tu estrategia para atraer a estos valiosos contactos. 
                     Si tienes preguntas sobre cómo aprovechar al máximo estas novedades, no dudes en contactar con nosotros.
@@ -90,6 +89,11 @@
                     El equipo de Cevisama
 
                 </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-image width="70px" align="right" border-radius="15px" border=" 2px solid black" src="https://arquitecturaviva.com/assets/uploads/tags/50604/av_imagen.jpeg" alt="" />
             </mj-column>
         </mj-section>    
     </mj-body>
