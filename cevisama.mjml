@@ -1,25 +1,25 @@
 <mjml>
-    <mj-body background-color="#3b79df">
-        <mj-section>
-            <mj-column>
-                <mj-text >
-                    <h2>¡Inversión Histórica en Cevisama 2025: Más Compradores 
-                    Internacionales para Tu Negocio!</h2>
+    <mj-body background-color="#dfdfdf">
+        <mj-wrapper full-width="full-width">
+            <mj-section padding-bottom="0px" padding-top="0px">
+            <mj-column  background-color="#fff">
+                <mj-text  align="center">
+                    <h1>Inversión Histórica en Cevisama 2025</h1>
                 </mj-text>
-                <mj-image src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera-CEVISAMA.jpg" alt="" />
             </mj-column>
-        </mj-section>
-        <mj-section>
-            <mj-column background-color="#FFD63A">
+            </mj-section>
+            <mj-section padding-bottom="0px" padding-top="0px">
+            <mj-column background-color="#fff">
+            <mj-image padding="0px"   src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera-CEVISAMA.jpg" href="https://cevisama.feriavalencia.com/" alt="" />
                 <mj-text align="justify">
-                    <h3 font-size="">Estamos volcando recursos como nunca antes para asegurar 
+                    <h2>Estamos volcando recursos como nunca antes para asegurar 
                     que tu stand en Cevisama 2025 sea un imán para los decisores 
                     de compra más relevantes de todo el mundo.</h2>
                 </mj-text>
                 <mj-divider/>
                 <mj-text font-size="18px" align="justify" >
                     Estamos muy emocionados de compartir noticias que marcarán 
-                    un antes y un después para tu participación en Cevisama 2025. 
+                    un antes y un después para tu participación en <i><b>Cevisama</b></i> 2025. 
                     En nuestro compromiso constante de maximizar el retorno de tu 
                     inversión, hemos realizado una inversión sin precedentes en un 
                     ambicioso programa diseñado exclusivamente para atraer a un 
@@ -27,58 +27,58 @@
                     de alto nivel.
                 </mj-text>
             </mj-column>
+
+
         </mj-section>
-        <mj-section>
-            <mj-column background-color="#FFD63A" >
-                <mj-text>
-                    <h3>¿Qué significa esta inversión para ti?</h3>
-                    Hemos ampliado y mejorado nuestras iniciativas para que tu stand en Cevisama 2025 atraiga 
+        <mj-section padding-bottom="0px" padding-top="0px">
+            <mj-column background-color="#fff" >
+                <mj-image src="https://images.pexels.com/photos/6779716/pexels-photo-6779716.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                <mj-text font-size="16px" align="justify">
+                    <h2>¿Qué significa esta inversión para ti?</h2>
+                    Hemos ampliado y mejorado nuestras iniciativas para que tu stand en <i><b>Cevisama</b></i> 2025 atraiga 
                     a los decisores clave del sector a nivel internacional. Aquí te detallamos cómo esta inversión 
                     se traduce en beneficios directos para tu empresa:
                 </mj-text>
                 <mj-divider/>
-                <mj-text >
-                    🌍 Programa de Compradores VIP Reforzado<br>
+                <mj-text  font-size="16px" align="justify">
+                    <b>🌍 Programa de Compradores VIP Reforzado</b><br>
                     ¡Hemos triplicado el presupuesto para traer a un número sin precedentes 
                     de arquitectos, interioristas y distribuidores clave! Estos profesionales, 
                     con alta capacidad de inversión, provienen de mercados estratégicos globales, 
-                    llegando a Cevisama con el objetivo claro de hacer negocios.
+                    llegando a <i><b>Cevisama</b></i> con el objetivo claro de hacer negocios.
                 </mj-text>
                 <mj-divider />
-                <mj-text  align="justify" >
-                    🤝 Delegaciones Comerciales Estratégicas<br>
+                <mj-text font-size="16px" align="justify" >
+                    <b>🤝 Delegaciones Comerciales Estratégicas</b><br>
                     Hemos reforzado alianzas para organizar delegaciones comerciales cualificadas. Estos grupos visitarán Cevisama con una agenda clara de reuniones pre-establecidas, maximizando tu tiempo y garantizando encuentros directos con compradores genuinamente interesados en tu oferta.
                 </mj-text>
                 <mj-divider />
-                <mj-text  align="justify"> 
-                    🚀 Campaña de Marketing Global de Impacto<br>
+                <mj-text font-size="16px" align="justify"> 
+                    <b>🚀 Campaña de Marketing Global de Impacto</b><br>
                     Lanzaremos una campaña de marketing intensificada en mercados internacionales 
                     prioritarios. Con publicidad segmentada y presencia en medios especializados, 
-                    aseguraremos que Cevisama 2025 y tu marca estén en la mente de cada comprador 
+                    aseguraremos que <i><b>Cevisama</b></i> 2025 y tu marca estén en la mente de cada comprador 
                     potencial, dirigiéndolos directamente a tu stand.
                 </mj-text>
                 <mj-divider />
-                <mj-text align="justify">
-                    🔗 Facilitadores de Negocio y Conexión Directa<br>
+                <mj-text font-size="16px" align="justify">
+                   <b> 🔗 Facilitadores de Negocio y Conexión Directa</b><br>
                     Contaremos con un equipo dedicado a la identificación y cualificación de compradores internacionales. Esto incluye acceso a herramientas de matchmaking avanzadas y agendas personalizadas, para que tus encuentros sean lo más productivos posible y encuentres las conexiones perfectas.
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section>
-            <mj-column background-color="#FFD63A">
-                <mj-text  align="justify">
-                    <h3>Tu éxito es nuestra misión</h3>
+        <mj-section padding-bottom="0px" padding-top="0px">
+            <mj-column background-color="#fff">
+                <mj-image src="https://images.pexels.com/photos/8293700/pexels-photo-8293700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                <mj-text font-size="16px" align="justify">
+                    <h2>Tu éxito es nuestra misión</h2>
                     Esta inversión es un reflejo de nuestra confianza en el potencial de 
-                    tu negocio y en el de Cevisama como plataforma global. Queremos 
+                    tu negocio y en el de <i><b>Cevisama</b></i> como plataforma global. Queremos 
                     que 2025 sea el año en que alcances tus objetivos más ambiciosos en 
                     cuanto a expansión internacional.<br><br>
-                    Prepárate para una edición de Cevisama con una afluencia sin precedentes de profesionales con alto poder de decisión.
+                    Prepárate para una edición de <i><b>Cevisama</b></i> con una afluencia sin precedentes de profesionales con alto poder de decisión.
                 </mj-text>
-            </mj-column>
-        </mj-section>
-        <mj-section>
-            <mj-column background-color="#FFD63A">
-                <mj-text  align="justify">
+                <mj-text font-size="16px" align="justify">
                     <h3>¿Listo para aprovechar al máximo esta oportunidad?</h3>
                     Te animamos a que comiences a planificar tu participación y prepares tu estrategia para atraer a estos valiosos contactos. 
                     Si tienes preguntas sobre cómo aprovechar al máximo estas novedades, no dudes en contactar con nosotros.
@@ -86,16 +86,27 @@
                     Mantente atento a futuras comunicaciones donde compartiremos más detalles sobre cómo este programa te beneficiará directamente.
                     <br><br>
                     Atentamente,<br><br>
-                    El equipo de Cevisama
-
+                    El equipo de <i><b>Cevisama</b></i>
+                    <br><br><br><br><br>
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section>
-            <mj-column>
-                <mj-image width="70px" align="right" border-radius="15px" border=" 2px solid black" src="https://arquitecturaviva.com/assets/uploads/tags/50604/av_imagen.jpeg" alt="" />
-            </mj-column>
-        </mj-section>    
+ 
+    <mj-section background-color="#555555" padding-bottom="0px" padding-top="0px">
+      <mj-column vertical-align="middle" width="30%">
+        <mj-image width="140px" href="https://www.feriavalencia.com" src="https://media.feriavalencia.com/mail/marketing/2017/forinvest/img/logofv100F.png" alt="Logo Feria Valencia" align="center" border="none" padding-left="20px" padding-right="0px" padding-bottom="10px" padding-top="10px"></mj-image>
+      </mj-column>
+      <mj-column width="20%"></mj-column>
+      <mj-column vertical-align="middle" width="50%">
+        <mj-social align="right" font-size="13px" icon-size="25px" mode="horizontal" padding-left="5px" padding-right="20px" padding-bottom="0px" padding-top="0px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/feriavalencia/" background-color="#555555"> </mj-social-element>
+          <mj-social-element name="twitter-noshare" href="https://twitter.com/feria_valencia" src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png" icon-size="21px" icon-height="25px" background-color="#555555"> </mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/feriavalencia/" background-color="#555555"> </mj-social-element>
+          <mj-social-element name="youtube" href="https://consent.youtube.com/m?continue=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUC2c4KYjrdeyt-W2ZH86Bsgw%3Fcbrd%3D1&gl=ES&m=0&pc=yt&hl=es&src=1" background-color="#555555" > </mj-social-element>
+          <mj-social-element name="linkedin" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F318933%2Fadmin%2F" background-color="#555555"> </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>    
     </mj-body>
 
 </mjml>
