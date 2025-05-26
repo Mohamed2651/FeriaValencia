@@ -1,12 +1,13 @@
 <mjml>
-  <mj-body background-color="#D1F8EF">
-    <mj-section>
-      <mj-column width="100%">
-        <mj-image width="800px" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_Email_Expojove_2024.jpg" alt="" />
+  <mj-body background-color="#dfdfdf">
+    <mj-section padding-bottom="0px">
+      <mj-column >
+        <mj-image padding="0px" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_Email_Expojove_2024.jpg" alt="" />
       </mj-column>
     </mj-section>
-    <mj-section>
-      <mj-column width="100%" background-color="#578FCA">
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column background-color="#fff">
         <mj-text font-size="20px">
           <b>La navidad está muy cerca prepárate para lo que se viene</b>
         </mj-text>
@@ -20,8 +21,9 @@
         <mj-image align="center" width="450px" src="https://7televalencia.com/wp-content/uploads/2022/11/7televalencia-expojove-5.jpg" alt="" />
       </mj-column>
     </mj-section>
-    <mj-section>
-        <mj-column>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+        <mj-column background-color="#fff">
             <mj-text >
              <h2>1. Montaje y Equipamiento del Stand:</h2>
             </mj-text>
@@ -63,10 +65,6 @@
 
        
     </mj-section>
-    <mj-section>
-        <mj-column >
-            <mj-image align="right" width="100px" border-radius="17px" border="3px solid #2d2e80" src="https://www.expojove.com/wp-content/uploads/2022/11/logoexpo22.png" alt="" />
-        </mj-column>
-    </mj-section>
+    
   </mj-body>
 </mjml>
