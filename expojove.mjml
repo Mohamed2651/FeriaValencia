@@ -1,70 +1,107 @@
 <mjml>
-  <mj-body background-color="#dfdfdf">
-    <mj-section padding-bottom="0px">
-      <mj-column >
-        <mj-image padding="0px" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_Email_Expojove_2024.jpg" alt="" />
+<mj-head>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+  </mj-head>
+  <mj-body background-color="#f0f0f0"> <mj-section padding-bottom="0px">
+      <mj-column>
+        <mj-image border-radius="8px" padding="0px" href="https://www.expojove.com/es/home/" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_Email_Expojove_2024.jpg" alt="Cabecera ExpoJove 2024" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="15px"> <mj-column background-color="#ffffff" border-radius="8px"> <mj-text font-size="24px" font-weight="bold" color="#333333" padding="20px 25px 10px 25px"> ¡La Navidad está a la vuelta de la esquina! Prepárate para lo que se viene
+        </mj-text>
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="0 25px" /> <mj-text font-size="16px" color="#555555" padding="20px 25px"> ¡Hola, {{nombre_destinatario}}!<br /><br />
+          Desde <b>ExpoJove</b>, queremos que tu experiencia sea inmejorable. Hemos preparado esta <b>guía rápida</b> para que conozcas y solicites todos los <b>servicios a tu disposición</b>. ¡Potencia tu <b>stand</b> y conecta de forma efectiva con nuestra audiencia!
+        </mj-text>
+        <mj-image src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/newsexpo1.png" alt="Novedades ExpoJove" padding="10px 25px 20px 25px" /> </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="15px">
+      <mj-column background-color="#ffffff" border-radius="8px">
+        <mj-text padding="20px 25px 0 25px">
+          <h2 style="font-size: 20px; color: #333333;">1. Montaje y Equipamiento del Stand:</h2>
+        </mj-text>
+        <mj-divider border-color="#eeeeee" border-width="1px" padding="10px 25px" />
+        <mj-text align="justify" font-size="15px" color="#555555" padding="0px 25px 20px 25px">
+          <b>Expojove</b> te permite elegir si quieres el espacio solo para tu diseño o
+          un <b>stand ya preparado</b> con lo básico. Además, puedes alquilar fácilmente
+          el <b>mobiliario y el equipo extra</b> que necesites para tu espacio.
+        </mj-text>
+
+        <mj-text padding="0 25px 0 25px">
+          <h2 style="font-size: 20px; color: #333333;">2. Promoción y Visibilidad:</h2>
+        </mj-text>
+        <mj-divider border-color="#eeeeee" border-width="1px" padding="10px 25px" />
+        <mj-text align="justify" font-size="15px" color="#555555" padding="0px 25px 20px 25px">
+          Tu empresa aparecerá en el <b>catálogo oficial de la feria</b>, llegando a
+          todos los visitantes. También puedes proponer <b>talleres o espectáculos</b>,
+          y te ayudamos a difundir tu participación en nuestras <b>redes sociales y web</b> para que tengas más impacto.
+        </mj-text>
+
+        <mj-text padding="0 25px 0 25px">
+          <h2 style="font-size: 20px; color: #333333;">3. Servicios Logísticos y Operativos:</h2>
+        </mj-text>
+        <mj-divider border-color="#eeeeee" border-width="1px" padding="10px 25px" />
+        <mj-text align="justify" font-size="15px" color="#555555" padding="0px 25px 20px 25px">
+          Te proporcionamos las <b>acreditaciones necesarias</b> para tu equipo y
+          garantizamos la <b>seguridad general del recinto</b>. Si lo necesitas, también
+          hay opciones para <b>almacenar tus materiales</b> y coordinar su transporte
+          para que todo esté listo a tiempo.
+        </mj-text>
+
+        <mj-text padding="0 25px 0 25px">
+          <h2 style="font-size: 20px; color: #333333;">4. Soporte y Asesoramiento:</h2>
+        </mj-text>
+        <mj-divider border-color="#eeeeee" border-width="1px" padding="10px 25px" />
+        <mj-text align="justify" font-size="15px" color="#555555" padding="0px 25px 20px 25px">
+          Tendrás un <b>gestor comercial asignado</b> para resolver todas tus dudas y ayudarte en
+          cada paso. Además, nuestra <b>plataforma online de expositores</b> te permite gestionar
+          tus servicios y acceder a <b>información clave</b> de forma sencilla.
+        </mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section padding-top="0px" padding-bottom="0px">
-      <mj-column background-color="#fff">
-        <mj-text font-size="20px">
-          <b>La navidad está muy cerca prepárate para lo que se viene</b>
-        </mj-text>
-        <mj-divider />
-        <mj-text font-size="16px">
-          ¡Hola!<br />
-          Desde <b>ExpoJove</b>, queremos que tu experiencia sea inmejorable. Hemos preparado esta guía rápida para que conozcas y solicites todos los servicios a tu disposición. Potencia tu stand y conecta de forma efectiva con nuestra
-          audiencia. 
-        </mj-text>
+      <mj-column background-color="#ffffff" border-radius="8px">
+        <mj-text align="justify" color="#333333">
+          <h2 style="font-size: 22px; color: #333333; text-align: center;">¡No esperes más para ser parte de <b>Expojove</b> y catapultar tu <b>marca</b>!</h2>
+          En <b>Expojove 2024</b>, te ofrecemos una <b>oportunidad inigualable</b> para que tu empresa crezca,
+          conecte con su <b>público objetivo</b> y genere un <b>impacto duradero</b>. Desde la flexibilidad en el montaje y
+          equipamiento de tu <b>stand</b>, hasta un <b>soporte logístico impecable</b> y una <b>promoción excepcional</b> de tu marca en nuestros canales,
+          hemos diseñado una <b>propuesta integral</b> para asegurar el <b>éxito de tu participación</b>. Contarás
+          con un <b>gestor comercial asignado</b> y acceso a una <b>plataforma online</b> para que la gestión sea sencilla y eficiente.<br /><br />
 
-        <mj-image align="center" width="450px" src="https://7televalencia.com/wp-content/uploads/2022/11/7televalencia-expojove-5.jpg" alt="" />
+          Con todas estas ventajas a tu alcance, <b>Expojove 2024</b> es la <b>plataforma ideal</b> para
+          que tu empresa brille con luz propia. ¡Es tu momento de <b>conectar con miles de
+          visitantes</b>, <b>expandir tu red</b> y dejar una <b>huella imborrable</b>!<br /><br />
+
+          ¡Asegura tu espacio hoy mismo y prepárate para una <b>experiencia inolvidable</b> que impulsará tu negocio hacia <b>nuevas alturas</b>!
+        </mj-text>
+        <mj-button href="https://www.expojove.com/es/contacto/" background-color="#007bff" color="#ffffff" font-size="18px" border-radius="5px" padding="10px 25px 30px 25px" align="center">
+          ¡Inscríbete Ahora!
+        </mj-button>
       </mj-column>
     </mj-section>
 
-    <mj-section padding-top="0px" padding-bottom="0px">
-        <mj-column background-color="#fff">
-            <mj-text >
-             <h2>1. Montaje y Equipamiento del Stand:</h2>
-            </mj-text>
-            <mj-divider  />
-            <mj-text align="justify" font-size="14px">
-                Expojove te permite elegir si quieres el espacio solo para tu diseño o 
-                un stand ya preparado con lo básico. Además, puedes alquilar fácilmente 
-                el mobiliario y el equipo extra que necesites para tu espacio.
-            </mj-text>
-            <mj-text>
-             <h2>2. Promoción y Visibilidad:</h2>
-            </mj-text>
-            <mj-divider  />
-            <mj-text align="justify" font-size="14px">
-                Tu empresa aparecerá en el catálogo oficial de la feria, llegando a 
-                todos los visitantes. También puedes proponer talleres o espectáculos, 
-                y te ayudamos a difundir tu participación en nuestras redes sociales y 
-                web para que tengas más impacto.
-            </mj-text>
-            <mj-text>
-             <h2>3. Servicios de Logísticos y Operativos:</h2>
-            </mj-text>
-            <mj-divider  />
-            <mj-text align="justify" font-size="14px">
-                Te proporcionamos las acreditaciones necesarias para tu equipo y 
-                garantizamos la seguridad general del recinto. Si lo necesitas, también 
-                hay opciones para almacenar tus materiales y coordinar su transporte 
-                para que todo esté listo a tiempo.
-            </mj-text>
-            <mj-text>
-             <h2>4. Soporte y Asesoramiento:</h2>
-            </mj-text>
-            <mj-divider  />
-            <mj-text align="justify" font-size="14px">
-                Tendrás un gestor comercial asignado para resolver todas tus dudas y ayudarte en 
-                cada paso. Además, nuestra plataforma online de expositores te permite gestionar 
-                tus servicios y acceder a información clave de forma sencilla.
-            </mj-text>
+    <mj-section padding-top="0px" background-color="#2a2a2a" padding="20px 0"> 
+    <mj-column padding-top="20px">
+        <mj-text align="center" font-size="14px" color="#ffffff" font-family="Montserrat, sans-serif" padding-bottom="15px">
+          ¡No te pierdas nada siguenos en nuestras redes sociales!
+        </mj-text>
+        <mj-social font-size="18px" icon-size="32px" mode="horizontal" align="center" padding-bottom="15px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/ExpoJoveFV" background-color="#3b5998"></mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/expojove_valencia/" background-color="#C13584"></mj-social-element>
+          <mj-social-element name="twitter" href="https://twitter.com/ExpoJoveFV" background-color="#1DA1F2"></mj-social-element>
+          <mj-social-element name="youtube" href="https://www.youtube.com/@FeriaValenciaTV" background-color="#FF0000"></mj-social-element>
+          </mj-social>
+        <mj-text align="center" font-size="12px" color="#cccccc" font-family="Montserrat, sans-serif" padding-top="10px">
+          2025-2026 ExpoJove<br />
+          Feria Valencia, Av. de las Ferias, s/n, 46035 Valencia
+        </mj-text>
+          <mj-image width="140px" href="https://www.feriavalencia.com" src="https://media.feriavalencia.com/mail/marketing/2017/forinvest/img/logofv100F.png" alt="Logo Feria Valencia" align="center" padding="10px 20px"></mj-image>
 
-       
+      </mj-column>
     </mj-section>
-    
+
   </mj-body>
 </mjml>
