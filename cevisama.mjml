@@ -5,6 +5,11 @@
       <mj-all font-size="16px" />
     </mj-attributes>
   </mj-head>
+  <mj-style>
+      
+      
+
+  </mj-style>
   <mj-body background-color="#e6e6e6">
     <mj-wrapper full-width="full-width">
       <mj-section padding-bottom="0px" padding-top="0px">
@@ -17,7 +22,7 @@
 
       <mj-section padding-bottom="20px" padding-top="0px">
         <mj-column background-color="#ffffff">
-          <mj-image padding="0px" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera-CEVISAMA.jpg" href="https://cevisama.feriavalencia.com/" alt="Cevisama 2025 Header Image" />
+          <mj-image padding="0px" src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/CEVISAMA/Cabecera-CEVISAMA.jpg" href="https://cevisama.feriavalencia.com/" alt="Cevisama 2025 Header Image" />
           <mj-text align="justify" padding="20px 25px 0px">
             <h2>Estamos volcando recursos como nunca antes para asegurar que tu stand en <b style="color:#007bff;">Cevisama</b> 2025 sea un imán para los decisores de compra más relevantes de todo el mundo.</h2>
           </mj-text>
@@ -30,7 +35,7 @@
 
       <mj-section padding-bottom="20px" padding-top="0px">
         <mj-column background-color="#ffffff">
-          <mj-image src="https://images.pexels.com/photos/6779716/pexels-photo-6779716.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="People at a trade show" padding-bottom="20px" />
+          <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/CEVISAMA/img1.jpeg" alt="People at a trade show" padding-bottom="20px" />
           <mj-text font-size="16px" align="justify" padding="0px 25px 0px">
             <h2>¿Qué significa esta inversión para ti?</h2>
             Hemos ampliado y mejorado nuestras iniciativas para que tu stand en <b style="color:#007bff;">Cevisama</b> 2025 atraiga a los decisores clave del sector a nivel internacional. Aquí te detallamos cómo esta inversión se traduce en beneficios directos para tu empresa:
@@ -60,7 +65,7 @@
 
       <mj-section padding-bottom="20px" padding-top="0px">
         <mj-column background-color="#ffffff">
-          <mj-image src="https://images.pexels.com/photos/8293700/pexels-photo-8293700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Business meeting" padding-bottom="20px" />
+          <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/CEVISAMA/img2.jpeg" alt="Business meeting" padding-bottom="20px" />
           <mj-text font-size="16px" align="justify" padding="0px 25px 10px">
             <h2>Tu éxito es nuestra misión</h2>
             Esta inversión es un reflejo de nuestra confianza en el potencial de tu negocio y en el de <b style="color:#007bff;">Cevisama</b> como plataforma global. Queremos que 2025 sea el año en que alcances tus objetivos más ambiciosos en cuanto a expansión internacional.<br><br>

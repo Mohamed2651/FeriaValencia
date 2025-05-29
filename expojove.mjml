@@ -4,16 +4,16 @@
   </mj-head>
   <mj-body background-color="#f0f0f0"> <mj-section padding-bottom="0px">
       <mj-column>
-        <mj-image border-radius="8px" padding="0px" href="https://www.expojove.com/es/home/" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_Email_Expojove_2024.jpg" alt="Cabecera ExpoJove 2024" />
+        <mj-image border-radius="8px 8px 0px 0px" padding="0px" href="https://www.expojove.com/es/home/" src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/EXPOJOVE/Cabecera_Email_Expojove_2024.jpg" alt="Cabecera ExpoJove 2024" />
       </mj-column>
     </mj-section>
 
-    <mj-section padding-top="0px" padding-bottom="15px"> <mj-column background-color="#ffffff" border-radius="8px"> <mj-text font-size="24px" font-weight="bold" color="#333333" padding="20px 25px 10px 25px"> ¡La Navidad está a la vuelta de la esquina! Prepárate para lo que se viene
+    <mj-section padding-top="0px" padding-bottom="15px"> <mj-column background-color="#ffffff" border-radius="0px 0px 8px 8px"> <mj-text font-size="24px" font-weight="bold" color="#333333" padding="20px 25px 10px 25px"> ¡La Navidad está a la vuelta de la esquina! Prepárate para lo que se viene
         </mj-text>
         <mj-divider border-color="#e0e0e0" border-width="1px" padding="0 25px" /> <mj-text font-size="16px" color="#555555" padding="20px 25px"> ¡Hola, {{nombre_destinatario}}!<br /><br />
           Desde <b>ExpoJove</b>, queremos que tu experiencia sea inmejorable. Hemos preparado esta <b>guía rápida</b> para que conozcas y solicites todos los <b>servicios a tu disposición</b>. ¡Potencia tu <b>stand</b> y conecta de forma efectiva con nuestra audiencia!
         </mj-text>
-        <mj-image src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/newsexpo1.png" alt="Novedades ExpoJove" padding="10px 25px 20px 25px" /> </mj-column>
+        <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/EXPOJOVE/newsexpo1.png" alt="Novedades ExpoJove" padding="10px 25px 20px 25px" /> </mj-column>
     </mj-section>
 
     <mj-section padding-top="0px" padding-bottom="15px">
