@@ -1,0 +1,145 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      /* Media query para dispositivos móviles */
+      @media only screen and (max-width: 490px) {
+        .desktop-order {
+          display: none !important;
+          max-height: 0px !important;
+          overflow: hidden !important;
+        }
+        .mobile-order {
+          display: block !important;
+          max-height: none !important;
+        }
+      }
+
+      /* Media query para dispositivos de escritorio */
+      @media only screen and (min-width: 491px) {
+        .mobile-order {
+          display: none !important;
+          max-height: 0px !important;
+          overflow: hidden !important;
+        }
+        .desktop-order {
+          display: block !important;
+          max-height: none !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F2F2F2">
+    <mj-section>
+      <mj-column>
+        <mj-text padding-bottom="0px">
+          <h1 align="center" style="color: #b70000; font-family: Arial, sans-serif; font-size: 32px; line-height: 1.2">¡Velocidad y emoción te esperan!</h1>
+        </mj-text>
+        <mj-image padding="0px" src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/MOTO2RUEDAS/Cabecera_mail_2Ruedas_2024_expositores.jpg" alt="Cabecera Feria Dos Ruedas" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#E6313A" padding-top="20px" padding-bottom="20px">
+      <mj-column>
+        <mj-text align="justify" color="#FFFFFF" font-family="Arial, sans-serif" font-size="18px" line-height="1.5">
+          <h2 style="color: #ffffff; font-size: 24px; line-height: 1.2">¿Eres un auténtico fanático de las motos? ¿Sueñas con sentir la adrenalina de las carreras en vivo? ¡La Feria Dos Ruedas hace tu sueño realidad!</h2>
+          Tenemos una noticia que te hará <b>rugir de emoción</b>: ¡sorteamos <b>DOS ENTRADAS</b> para el Gran Premio de Motociclismo de Cheste! Sí, has leído bien, la oportunidad de vivir la vibrante atmósfera del circuito, escuchar el
+          bramido de los motores y ver a tus ídolos en acción está a tu alcance.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#E6313A">
+      <mj-column>
+        <mj-divider padding="0px" border-color="#FFFFFF" border-width="2px" padding="10px 25px"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="desktop-order" background-color="#E6313A" padding-top="20px" padding-bottom="20px">
+      <mj-column padding-right="10px">
+        <mj-text align="justify" color="#FFFFFF" font-family="Arial, sans-serif" font-size="16px" line-height="1.5">
+          Pero no solo eso. Además de presenciar las carreras más apasionantes, podrías tener la increíble oportunidad de <b>conocer de cerca a algunos de tus corredores favoritos</b>, participar en sesiones de firmas, e incluso cruzarte
+          con <b>personalidades invitadas y leyendas del motociclismo</b>.
+        </mj-text>
+      </mj-column>
+      <mj-column padding-top="40px" padding-left="10px">
+        <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/MOTO2RUEDAS/img1_2ruedas1.jpg" alt="Corredor de motos" width="250px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="mobile-order" background-color="#E6313A" padding-top="20px" padding-bottom="20px">
+      <mj-column>
+        <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/MOTO2RUEDAS/img1_2ruedas1.jpg" alt="Corredor de motos" width="250px" />
+      </mj-column>
+      <mj-column padding-right="10px">
+        <mj-text align="justify" color="#FFFFFF" font-family="Arial, sans-serif" font-size="16px" line-height="1.5">
+          Pero no solo eso. Además de presenciar las carreras más apasionantes, podrías tener la increíble oportunidad de <b>conocer de cerca a algunos de tus corredores favoritos</b>, participar en sesiones de firmas, e incluso cruzarte
+          con <b>personalidades invitadas y leyendas del motociclismo</b>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#E6313A" padding-top="0px" padding-bottom="20px">
+      <mj-column padding-right="10px">
+        <mj-image padding-top="30px" src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/MOTO2RUEDAS/img2.jpg" alt="Público en un circuito" width="250px" />
+      </mj-column>
+      <mj-column padding-left="10px">
+        <mj-text align="justify" color="#FFFFFF" font-family="Arial, sans-serif" font-size="16px" line-height="1.5">
+          Imagina la emoción de un saludo, una foto o unas palabras con quienes hacen historia sobre dos ruedas. Habrá <b>actividades exclusivas, exposiciones de motos de competición</b> y un ambiente inigualable que solo se vive en un Gran
+          Premio.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#E6313A">
+      <mj-column>
+        <mj-divider padding="0px" border-color="#FFFFFF" border-width="2px" padding="10px 25px"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#E6313A" padding-top="20px" padding-bottom="30px">
+      <mj-column>
+        <mj-text align="center" color="#FFFFFF" font-family="Arial, sans-serif" font-size="18px" line-height="1.5">
+          <b>¿Cómo participar?</b> Es muy sencillo: solo tienes que <b>cumplimentar el formulario para las entradas de la feria antes del 1 de septiembre</b>. Así de fácil. Con tu entrada asegurada para la feria, estarás participando
+          automáticamente en este sorteo que podría llevarte directo a la cuna de la velocidad y la emoción.
+        </mj-text>
+        <mj-text align="center" color="#FFFFFF" font-family="Arial, sans-serif" font-size="20px" font-weight="bold" line-height="1.5" padding-top="15px"> ¡No dejes escapar esta oportunidad única! </mj-text>
+        <mj-text align="center" color="#FFFFFF" font-family="Arial, sans-serif" font-size="16px" line-height="1.5">
+          Imagina estar allí, viviendo cada curva, cada adelantamiento, cada grito de la afición. La emoción de Cheste te espera, y la Feria Dos Ruedas quiere llevarte.
+        </mj-text>
+        <mj-button
+          href="https://dosruedas.feriavalencia.com/"
+          background-color="#2a2a2a"
+          border="2.5px solid white"
+          color="#fff"
+          font-size="20px"
+          font-weight="bold"
+          padding="15px 30px"
+          border-radius="8px"
+          align="center"
+          padding-top="30px"
+        >
+          ¡Participa aquí!
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" background-color="#2a2a2a" padding="20px 0">
+      <mj-column padding-top="20px">
+        <mj-text align="center" font-size="14px" color="#ffffff" font-family="Montserrat, sans-serif" padding-bottom="15px">
+          ¡Nos vemos en la Feria Dos Ruedas y, quizás, en Cheste!
+        </mj-text>
+        <mj-social font-size="18px" icon-size="32px" mode="horizontal" align="center" padding-bottom="15px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/ExpoJoveFV" background-color="#3b5998"></mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/expojove_valencia/" background-color="#C13584"></mj-social-element>
+          <mj-social-element name="twitter" href="https://twitter.com/ExpoJoveFV" background-color="#1DA1F2"></mj-social-element>
+          <mj-social-element name="youtube" href="https://www.youtube.com/@FeriaValenciaTV" background-color="#FF0000"></mj-social-element>
+        </mj-social>
+        <mj-text align="center" font-size="12px" color="#cccccc" font-family="Montserrat, sans-serif" padding-top="10px">
+          2025-2026 ExpoJove<br />
+          Feria Valencia, Av. de las Ferias, s/n, 46035 Valencia
+        </mj-text>
+        <mj-image width="140px" href="https://www.feriavalencia.com" src="https://media.feriavalencia.com/mail/marketing/2017/forinvest/img/logofv100F.png" alt="Logo Feria Valencia" align="center" padding="10px 20px"></mj-image>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
