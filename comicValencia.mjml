@@ -1,0 +1,140 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, sans-serif"></mj-all>
+      <mj-text font-size="16px" color="#333333"></mj-text>
+      <mj-section padding="20px 25px"></mj-section>
+      <mj-column padding="0"></mj-column>
+    </mj-attributes>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:400,700"></mj-font>
+    <mj-style>
+      .author-section {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F0F0F0">
+
+    <mj-section background-color="#FF3D00" padding="0">
+      <mj-column>
+        <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/ComicValencia/cabeceraComic.jpg" alt="Salón del Cómic de València" align="center" padding="0"></mj-image>
+        <mj-text align="center" color="#FFFFFF" font-size="38px" font-weight="bold" padding="15px 20px" line-height="1.2" font-family="Roboto, Arial, sans-serif">
+          ¡Salón del Cómic de València!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFFFFF" padding-top="30px" padding-bottom="20px">
+      <mj-column>
+        <mj-text align="center" font-size="18px" line-height="1.6" color="#4A4A4A" padding="0 25px">
+          ¡Saludos, amantes del cómic! Prepárense para sumergirse en un universo de viñetas y creatividad. Este es su boletín directo del <b>Salón del Cómic de València</b>, con las últimas novedades, invitados de lujo y promociones que no querrán perderse. ¡Acompáñnenos en esta aventura!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    ---
+
+    <mj-section background-color="#00796B" padding="25px">
+      <mj-column>
+        <mj-text align="center" color="#FFFFFF" font-size="28px" font-weight="bold" padding-bottom="15px" font-family="Roboto, Arial, sans-serif">
+          <h2>📅 Fechas y Lugar</h2>
+        </mj-text>
+        <mj-text align="center" color="#FFFFFF" font-size="17px" line-height="1.8">
+          <b>Fechas:</b> Del <b>3 al 6 de septiembre de 2025</b><br/>
+          <b>Horarios:</b> De <b>10:00h a 20:00h</b> (horario ininterrumpido)<br/>
+          <b>Lugar:</b> <b>Feria Valencia, Av. de las Ferias s/n, 46035 València</b><br/>
+          <b>Entradas:</b> A la venta a partir del <b>1 de agosto de 2025</b> en nuestra <a href="https://www.saloncomicvalencia.com/entradas" style="color: #FFEB3B; text-decoration: none; font-weight: bold;">web oficial</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    ---
+
+    <mj-section background-color="#FFFFFF" padding-top="30px" padding-bottom="15px">
+      <mj-column>
+        <mj-text align="center" color="#FF3D00" font-size="20px" font-weight="bold" font-family="Roboto, Arial, sans-serif">
+          <h2>Invitados Confirmados: ¡Conoce a tus Favoritos!</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F0F0F0" padding="10px 0"></mj-section>
+
+    <mj-section background-color="#4CAF50" padding="20px 25px" border-radius="8px" css-class="author-section">
+      <mj-column>
+        <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/ComicValencia/PACO-ROCA-683x1024.jpg" alt="Paco Roca" width="120px" border-radius="50%" align="center" padding-bottom="10px"></mj-image>
+        <mj-text align="center" font-size="22px" font-weight="bold" color="#FFFFFF" padding-bottom="5px">
+          Paco Roca
+        </mj-text>
+        <mj-text align="center" font-size="15px" color="#FFFFFF" padding="0 20px 0px 20px" line-height="1.4">
+          Un maestro del cómic español, conocido por obras premiadas como "Arrugas" y "La Casa".
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F0F0F0" padding="10px 0"></mj-section>
+
+    <mj-section background-color="#4CAF50" padding="20px 25px" border-radius="8px" css-class="author-section">
+      <mj-column>
+        <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/ComicValencia/AnaMiralles.jpg" alt="Ana Miralles" width="120px" border-radius="50%" align="center" padding-bottom="10px"></mj-image>
+        <mj-text align="center" font-size="22px" font-weight="bold" color="#FFFFFF" padding-bottom="5px">
+          Ana Miralles
+        </mj-text>
+        <mj-text align="center" font-size="15px" color="#FFFFFF" padding="0 20px 0px 20px" line-height="1.4">
+          Una de las grandes ilustradoras españolas, reconocida por su trabajo en series como "Djinn" y "Eva Medusa".
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F0F0F0" padding="10px 0"></mj-section>
+
+    <mj-section background-color="#4CAF50" padding="20px 25px" border-radius="8px" css-class="author-section">
+      <mj-column>
+        <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/ComicValencia/lucas-nine.jpg" alt="Lucas Nine" width="120px" border-radius="50%" align="center" padding-bottom="10px"></mj-image>
+        <mj-text align="center" font-size="22px" font-weight="bold" color="#FFFFFF" padding-bottom="5px">
+          Lucas Nine
+        </mj-text>
+        <mj-text align="center" font-size="15px" color="#FFFFFF" padding="0 20px 0px 20px" line-height="1.4">
+          Desde Argentina, este talentoso autor es aclamado por su originalidad y obras que desafían géneros como "Dicha y desdicha del amor".
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F0F0F0" padding="20px 0"></mj-section>
+
+    <mj-section background-color="#E0E0E0" padding="25px">
+      <mj-column>
+        <mj-text align="center" color="#333333" font-size="28px" font-weight="bold" padding-bottom="15px" font-family="Roboto, Arial, sans-serif">
+          <h2>Novedades Exclusivas</h2>
+        </mj-text>
+        <mj-text align="center" font-size="17px" line-height="1.6" color="#4A4A4A" padding-bottom="20px">
+          ¡Grandes sorpresas te esperan! Presentaremos la nueva serie de <b>Planeta Cómic</b>, "El Legado de los Guardianes", y contaremos con un panel especial con los creadores de "El Vecino". Además, prepárate para el <b>Concurso de Cosplay</b> con premios increíbles.
+        </mj-text>
+        <mj-button href="https://www.saloncomicvalencia.com/novedades" background-color="#FF3D00" color="#FFFFFF" font-size="18px" font-weight="bold" border-radius="5px" padding="10px 25px">
+          Más información
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" background-color="#2a2a2a" padding="20px 0"> 
+    <mj-column padding-top="20px">
+        <mj-text align="center" font-size="14px" color="#ffffff" font-family="Montserrat, sans-serif" padding-bottom="15px">
+          ¡No te pierdas nada siguenos en nuestras redes sociales!
+        </mj-text>
+        <mj-social font-size="18px" icon-size="32px" mode="horizontal" align="center" padding-bottom="15px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/ExpoJoveFV" background-color="#3b5998"></mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/expojove_valencia/" background-color="#C13584"></mj-social-element>
+          <mj-social-element name="twitter" href="https://twitter.com/ExpoJoveFV" background-color="#1DA1F2"></mj-social-element>
+          <mj-social-element name="youtube" href="https://www.youtube.com/@FeriaValenciaTV" background-color="#FF0000"></mj-social-element>
+          </mj-social>
+        <mj-text align="center" font-size="12px" color="#cccccc" font-family="Montserrat, sans-serif" padding-top="10px">
+          2025-2026 ExpoJove<br />
+          Feria Valencia, Av. de las Ferias, s/n, 46035 Valencia
+        </mj-text>
+          <mj-image width="140px" href="https://www.feriavalencia.com" src="https://media.feriavalencia.com/mail/marketing/2017/forinvest/img/logofv100F.png" alt="Logo Feria Valencia" align="center" padding="10px 20px"></mj-image>
+
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
