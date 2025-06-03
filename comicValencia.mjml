@@ -10,15 +10,66 @@
     <mj-style>
       .author-section {
         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        transition: transform 0.2s ease-in-out;
+      }
+      .author-section:hover {
+        transform: translateY(-5px);
+      }
+      .button-hover:hover {
+        opacity: 0.8;
+      }
+      /* Media Query para dispositivos móviles */
+      @media only screen and (max-width: 480px) {
+        .header-title {
+          font-size: 28px !important;
+        }
+        .intro-text {
+          font-size: 16px !important;
+        }
+        .section-title {
+          font-size: 24px !important;
+        }
+        .author-name {
+          font-size: 20px !important;
+        }
+        .author-description {
+          font-size: 14px !important;
+        }
+        .view-in-browser-text {
+          font-size: 12px !important;
+        }
+        .header-info-text {
+          font-size: 12px !important;
+          text-align: center !important;
+        }
+        .header-view-link {
+          text-align: center !important;
+        }
       }
     </mj-style>
+    <mj-raw>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    </mj-raw>
   </mj-head>
   <mj-body background-color="#F0F0F0">
 
+    <mj-section padding-bottom="10px" padding-top="10px" padding-left="0px" background-color="#F0F0F0">
+      <mj-column width="65%" vertical-align="middle">
+        <mj-text align="left" color="#54595F" padding-left="25px" padding-right="0px" padding-bottom="0px" padding-top="0px" css-class="header-info-text">
+          Salón del Cómic de València | 3 - 6 Sept. 2025
+        </mj-text>
+      </mj-column>
+      <mj-column width="35%" vertical-align="middle">
+        <mj-text align="right" padding-right="25px" css-class="header-view-link view-in-browser-text">
+          <a style="color:#23539f; font-weight:300; font-style:normal; text-decoration:none" href="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/outputHTML/comicValencia.html">Ver en el navegador</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
     <mj-section background-color="#FF3D00" padding="0">
-      <mj-column>
-        <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/ComicValencia/cabeceraComic.jpg" alt="Salón del Cómic de València" align="center" padding="0"></mj-image>
-        <mj-text align="center" color="#FFFFFF" font-size="38px" font-weight="bold" padding="15px 20px" line-height="1.2" font-family="Roboto, Arial, sans-serif">
+      <mj-column vertical-align="top">
+        <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/ComicValencia/cabeceraComic.jpg" alt="Salón del Cómic de València" align="center" padding="0" fluid-on-mobile="true"></mj-image>
+        <mj-text align="center" color="#FFFFFF" font-size="38px" font-weight="bold" padding="15px 20px" line-height="1.2" font-family="Roboto, Arial, sans-serif" css-class="header-title">
           ¡Salón del Cómic de València!
         </mj-text>
       </mj-column>
@@ -26,17 +77,17 @@
 
     <mj-section background-color="#FFFFFF" padding-top="30px" padding-bottom="20px">
       <mj-column>
-        <mj-text align="center" font-size="18px" line-height="1.6" color="#4A4A4A" padding="0 25px">
-          ¡Saludos, amantes del cómic! Prepárense para sumergirse en un universo de viñetas y creatividad. Este es su boletín directo del <b>Salón del Cómic de València</b>, con las últimas novedades, invitados de lujo y promociones que no querrán perderse. ¡Acompáñnenos en esta aventura!
+        <mj-text align="center" font-size="18px" line-height="1.6" color="#4A4A4A" padding="0 25px" css-class="intro-text">
+          ¡Saludos, <b>{{nombre_destinatario}}</b> amante del cómic! Prepárese para sumergirse en un universo de viñetas y creatividad. Este es su boletín directo del <b>Salón del Cómic de València</b>, con las últimas novedades, invitados de lujo y promociones que no querrá perderse. ¡Acompáñanos en esta aventura!
         </mj-text>
       </mj-column>
     </mj-section>
 
     ---
 
-    <mj-section background-color="#00796B" padding="25px">
+    <mj-section background-color="#32754C" padding="25px" border-radius="8px">
       <mj-column>
-        <mj-text align="center" color="#FFFFFF" font-size="28px" font-weight="bold" padding-bottom="15px" font-family="Roboto, Arial, sans-serif">
+        <mj-text align="center" color="#FFFFFF" font-size="28px" font-weight="bold" padding-bottom="15px" font-family="Roboto, Arial, sans-serif" css-class="section-title">
           <h2>📅 Fechas y Lugar</h2>
         </mj-text>
         <mj-text align="center" color="#FFFFFF" font-size="17px" line-height="1.8">
@@ -52,7 +103,7 @@
 
     <mj-section background-color="#FFFFFF" padding-top="30px" padding-bottom="15px">
       <mj-column>
-        <mj-text align="center" color="#FF3D00" font-size="20px" font-weight="bold" font-family="Roboto, Arial, sans-serif">
+        <mj-text align="center" color="#FF3D00" font-size="20px" font-weight="bold" font-family="Roboto, Arial, sans-serif" css-class="section-title">
           <h2>Invitados Confirmados: ¡Conoce a tus Favoritos!</h2>
         </mj-text>
       </mj-column>
@@ -60,13 +111,13 @@
 
     <mj-section background-color="#F0F0F0" padding="10px 0"></mj-section>
 
-    <mj-section background-color="#4CAF50" padding="20px 25px" border-radius="8px" css-class="author-section">
+    <mj-section background-color="#32754C" padding="20px 25px" border-radius="8px" css-class="author-section">
       <mj-column>
         <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/ComicValencia/PACO-ROCA-683x1024.jpg" alt="Paco Roca" width="120px" border-radius="50%" align="center" padding-bottom="10px"></mj-image>
-        <mj-text align="center" font-size="22px" font-weight="bold" color="#FFFFFF" padding-bottom="5px">
+        <mj-text align="center" font-size="22px" font-weight="bold" color="#FFFFFF" padding-bottom="5px" css-class="author-name">
           Paco Roca
         </mj-text>
-        <mj-text align="center" font-size="15px" color="#FFFFFF" padding="0 20px 0px 20px" line-height="1.4">
+        <mj-text align="center" font-size="15px" color="#FFFFFF" padding="0 20px 0px 20px" line-height="1.4" css-class="author-description">
           Un maestro del cómic español, conocido por obras premiadas como "Arrugas" y "La Casa".
         </mj-text>
       </mj-column>
@@ -74,13 +125,13 @@
 
     <mj-section background-color="#F0F0F0" padding="10px 0"></mj-section>
 
-    <mj-section background-color="#4CAF50" padding="20px 25px" border-radius="8px" css-class="author-section">
+    <mj-section background-color="#32754C" padding="20px 25px" border-radius="8px" css-class="author-section">
       <mj-column>
         <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/ComicValencia/AnaMiralles.jpg" alt="Ana Miralles" width="120px" border-radius="50%" align="center" padding-bottom="10px"></mj-image>
-        <mj-text align="center" font-size="22px" font-weight="bold" color="#FFFFFF" padding-bottom="5px">
+        <mj-text align="center" font-size="22px" font-weight="bold" color="#FFFFFF" padding-bottom="5px" css-class="author-name">
           Ana Miralles
         </mj-text>
-        <mj-text align="center" font-size="15px" color="#FFFFFF" padding="0 20px 0px 20px" line-height="1.4">
+        <mj-text align="center" font-size="15px" color="#FFFFFF" padding="0 20px 0px 20px" line-height="1.4" css-class="author-description">
           Una de las grandes ilustradoras españolas, reconocida por su trabajo en series como "Djinn" y "Eva Medusa".
         </mj-text>
       </mj-column>
@@ -88,13 +139,13 @@
 
     <mj-section background-color="#F0F0F0" padding="10px 0"></mj-section>
 
-    <mj-section background-color="#4CAF50" padding="20px 25px" border-radius="8px" css-class="author-section">
+    <mj-section background-color="#32754C" padding="20px 25px" border-radius="8px" css-class="author-section">
       <mj-column>
         <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/ComicValencia/lucas-nine.jpg" alt="Lucas Nine" width="120px" border-radius="50%" align="center" padding-bottom="10px"></mj-image>
-        <mj-text align="center" font-size="22px" font-weight="bold" color="#FFFFFF" padding-bottom="5px">
+        <mj-text align="center" font-size="22px" font-weight="bold" color="#FFFFFF" padding-bottom="5px" css-class="author-name">
           Lucas Nine
         </mj-text>
-        <mj-text align="center" font-size="15px" color="#FFFFFF" padding="0 20px 0px 20px" line-height="1.4">
+        <mj-text align="center" font-size="15px" color="#FFFFFF" padding="0 20px 0px 20px" line-height="1.4" css-class="author-description">
           Desde Argentina, este talentoso autor es aclamado por su originalidad y obras que desafían géneros como "Dicha y desdicha del amor".
         </mj-text>
       </mj-column>
@@ -102,37 +153,36 @@
 
     <mj-section background-color="#F0F0F0" padding="20px 0"></mj-section>
 
-    <mj-section background-color="#E0E0E0" padding="25px">
+    <mj-section background-color="#E0E0E0" padding="25px" border-radius="8px">
       <mj-column>
-        <mj-text align="center" color="#333333" font-size="28px" font-weight="bold" padding-bottom="15px" font-family="Roboto, Arial, sans-serif">
+        <mj-text align="center" color="#333333" font-size="28px" font-weight="bold" padding-bottom="15px" font-family="Roboto, Arial, sans-serif" css-class="section-title">
           <h2>Novedades Exclusivas</h2>
         </mj-text>
         <mj-text align="center" font-size="17px" line-height="1.6" color="#4A4A4A" padding-bottom="20px">
           ¡Grandes sorpresas te esperan! Presentaremos la nueva serie de <b>Planeta Cómic</b>, "El Legado de los Guardianes", y contaremos con un panel especial con los creadores de "El Vecino". Además, prepárate para el <b>Concurso de Cosplay</b> con premios increíbles.
         </mj-text>
-        <mj-button href="https://www.saloncomicvalencia.com/novedades" background-color="#FF3D00" color="#FFFFFF" font-size="18px" font-weight="bold" border-radius="5px" padding="10px 25px">
+        <mj-button href="https://www.saloncomicvalencia.com/novedades" background-color="#FF3D00" color="#FFFFFF" font-size="18px" font-weight="bold" border-radius="5px" padding="10px 25px" css-class="button-hover">
           Más información
         </mj-button>
       </mj-column>
     </mj-section>
 
     <mj-section padding-top="0px" background-color="#2a2a2a" padding="20px 0"> 
-    <mj-column padding-top="20px">
+      <mj-column padding-top="20px">
         <mj-text align="center" font-size="14px" color="#ffffff" font-family="Montserrat, sans-serif" padding-bottom="15px">
-          ¡No te pierdas nada siguenos en nuestras redes sociales!
+          ¡No te pierdas nada, síguenos en nuestras redes sociales!
         </mj-text>
         <mj-social font-size="18px" icon-size="32px" mode="horizontal" align="center" padding-bottom="15px">
           <mj-social-element name="facebook" href="https://www.facebook.com/ExpoJoveFV" background-color="#3b5998"></mj-social-element>
           <mj-social-element name="instagram" href="https://www.instagram.com/expojove_valencia/" background-color="#C13584"></mj-social-element>
           <mj-social-element name="twitter" href="https://twitter.com/ExpoJoveFV" background-color="#1DA1F2"></mj-social-element>
-          <mj-social-element name="youtube" href="https://www.youtube.com/@FeriaValenciaTV" background-color="#FF0000"></mj-social-element>
-          </mj-social>
+          <mj-social-element name="youtube" href="https://www.youtube.com/channel/UC_YOUR_YOUTUBE_CHANNEL_ID" background-color="#FF0000"></mj-social-element>
+        </mj-social>
         <mj-text align="center" font-size="12px" color="#cccccc" font-family="Montserrat, sans-serif" padding-top="10px">
-          2025-2026 ExpoJove<br />
+          © 2025-2026 Salón del Cómic de València. Todos los derechos reservados.<br />
           Feria Valencia, Av. de las Ferias, s/n, 46035 Valencia
         </mj-text>
-          <mj-image width="140px" href="https://www.feriavalencia.com" src="https://media.feriavalencia.com/mail/marketing/2017/forinvest/img/logofv100F.png" alt="Logo Feria Valencia" align="center" padding="10px 20px"></mj-image>
-
+        <mj-image width="140px" href="https://www.feriavalencia.com" src="https://media.feriavalencia.com/mail/marketing/2017/forinvest/img/logofv100F.png" alt="Logo Feria Valencia" align="center" padding="10px 20px"></mj-image>
       </mj-column>
     </mj-section>
 

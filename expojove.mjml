@@ -1,19 +1,91 @@
 <mjml>
-<mj-head>
+  <mj-head>
     <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+    <mj-style>
+      /* Media query para dispositivos móviles */
+      @media only screen and (max-width: 490px) {
+        .desktop-order {
+          display: none !important;
+          max-height: 0px !important;
+          overflow: hidden !important;
+        }
+        .mobile-order {
+          display: block !important;
+          max-height: none !important;
+        }
+        /* Ajuste para el tamaño de la letra en móviles */
+        mj-text {
+          font-size: 15px !important; /* Tamaño de letra más pequeño para todo el texto */
+          padding-left: 15px !important; /* Ajuste de padding para móviles */
+          padding-right: 15px !important; /* Ajuste de padding para móviles */
+        }
+        h1 {
+          font-size: 28px !important; /* Título principal un poco más pequeño */
+        }
+        h2 {
+          font-size: 20px !important; /* Subtítulos un poco más pequeños */
+        }
+        mj-button {
+          font-size: 18px !important; /* Botón un poco más pequeño */
+          padding: 12px 25px !important;
+        }
+        .header-info-text {
+          font-size: 12px !important;
+          text-align: center !important;
+          padding-left: 10px !important; /* Ajuste para móviles */
+          padding-right: 10px !important; /* Ajuste para móviles */
+        }
+        .header-view-link {
+          text-align: center !important;
+          padding-left: 10px !important; /* Ajuste para móviles */
+          padding-right: 10px !important; /* Ajuste para móviles */
+        }
+      }
+      /* Media query para dispositivos de escritorio */
+      @media only screen and (min-width: 491px) {
+        .mobile-order {
+          display: none !important;
+          max-height: 0px !important;
+          overflow: hidden !important;
+        }
+        .desktop-order {
+          display: block !important;
+          max-height: none !important;
+        }
+      }
+    </mj-style>
   </mj-head>
-  <mj-body background-color="#f0f0f0"> <mj-section padding-bottom="0px">
+  <mj-body background-color="#f0f0f0">
+
+    <mj-section padding-bottom="10px" padding-top="10px" padding-left="0px" background-color="#f0f0f0">
+      <mj-column width="65%" vertical-align="middle">
+        <mj-text align="left" color="#54595F" padding-left="25px" padding-right="0px" padding-bottom="0px" padding-top="0px" css-class="header-info-text">
+          EXPOJOVE | Dic. 2024 - Ene. 2025
+        </mj-text>
+      </mj-column>
+      <mj-column width="35%" vertical-align="middle">
+        <mj-text align="right" padding-right="25px" css-class="header-view-link">
+          <a style="color:#23539f; font-weight:300; font-style:normal; text-decoration:none" href="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/outputHTML/expojove.html">Ver en el navegador</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0px">
       <mj-column>
         <mj-image border-radius="8px 8px 0px 0px" padding="0px" href="https://www.expojove.com/es/home/" src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/EXPOJOVE/Cabecera_Email_Expojove_2024.jpg" alt="Cabecera ExpoJove 2024" />
       </mj-column>
     </mj-section>
 
-    <mj-section padding-top="0px" padding-bottom="15px"> <mj-column background-color="#ffffff" border-radius="0px 0px 8px 8px"> <mj-text font-size="24px" font-weight="bold" color="#333333" padding="20px 25px 10px 25px"> ¡La Navidad está a la vuelta de la esquina! Prepárate para lo que se viene
+    <mj-section padding-top="0px" padding-bottom="15px">
+      <mj-column background-color="#ffffff" border-radius="0px 0px 8px 8px">
+        <mj-text font-size="24px" font-weight="bold" color="#333333" padding="20px 25px 10px 25px"> ¡La Navidad está a la vuelta de la esquina! Prepárate para lo que se viene
         </mj-text>
-        <mj-divider border-color="#e0e0e0" border-width="1px" padding="0 25px" /> <mj-text font-size="16px" color="#555555" padding="20px 25px"> ¡Hola, {{nombre_destinatario}}!<br /><br />
+        <mj-divider border-color="#e0e0e0" border-width="1px" padding="0 25px" />
+        <mj-text font-size="16px" color="#555555" padding="20px 25px"> ¡Hola, {{nombre_destinatario}}!<br /><br />
           Desde <b>ExpoJove</b>, queremos que tu experiencia sea inmejorable. Hemos preparado esta <b>guía rápida</b> para que conozcas y solicites todos los <b>servicios a tu disposición</b>. ¡Potencia tu <b>stand</b> y conecta de forma efectiva con nuestra audiencia!
         </mj-text>
-        <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/EXPOJOVE/newsexpo1.png" alt="Novedades ExpoJove" padding="10px 25px 20px 25px" /> </mj-column>
+        <mj-image src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/EXPOJOVE/newsexpo1.png" alt="Novedades ExpoJove" padding="10px 25px 20px 25px" />
+      </mj-column>
     </mj-section>
 
     <mj-section padding-top="0px" padding-bottom="15px">
@@ -83,7 +155,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section padding-top="0px" background-color="#2a2a2a" padding="20px 0"> 
+    <mj-section padding-top="0px" background-color="#2a2a2a" padding="20px 0">
     <mj-column padding-top="20px">
         <mj-text align="center" font-size="14px" color="#ffffff" font-family="Montserrat, sans-serif" padding-bottom="15px">
           ¡No te pierdas nada siguenos en nuestras redes sociales!

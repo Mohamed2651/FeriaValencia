@@ -12,8 +12,23 @@
           display: block !important;
           max-height: none !important;
         }
+        /* Ajuste para el tamaño de la letra en móviles */
+        mj-text {
+          font-size: 15px !important; /* Tamaño de letra más pequeño para todo el texto */
+          padding-left: 15px !important; /* Ajuste de padding para móviles */
+          padding-right: 15px !important; /* Ajuste de padding para móviles */
+        }
+        h1 {
+          font-size: 28px !important; /* Título principal un poco más pequeño */
+        }
+        h2 {
+          font-size: 20px !important; /* Subtítulos un poco más pequeños */
+        }
+        mj-button {
+          font-size: 18px !important; /* Botón un poco más pequeño */
+          padding: 12px 25px !important;
+        }
       }
-
       /* Media query para dispositivos de escritorio */
       @media only screen and (min-width: 491px) {
         .mobile-order {
@@ -29,10 +44,24 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#F2F2F2">
+    
+    <mj-section padding-bottom="10px" padding-top="10px" padding-left="0px" background-color="#e6e6e6">
+      <mj-column width="65%" vertical-align="middle">
+        <mj-text align="left" color="#54595F" padding-left="25px" padding-right="0px" padding-bottom="0px" padding-top="0px" >
+          FERIA DOS RUEDAS | 1 Sept. 2025
+        </mj-text>
+      </mj-column>
+      <mj-column width="35%" vertical-align="middle">
+        <mj-text align="right" padding-right="25px" >
+          <a style="color:#23539f; font-weight:300; font-style:normal; text-decoration:none" href="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/outputHTML/dosruedas.html">Ver en el navegador</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
     <mj-section>
       <mj-column>
         <mj-text padding-bottom="0px">
-          <h1 align="center" style="color: #b70000; font-family: Arial, sans-serif; font-size: 32px; line-height: 1.2">¡Velocidad y emoción te esperan!</h1>
+          <h1 align="center" style="color: #e6313a; font-family: Arial, sans-serif; font-size: 32px; line-height: 1.2">¡Velocidad y emoción te esperan!</h1>
         </mj-text>
         <mj-image padding="0px" src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/MOTO2RUEDAS/Cabecera_mail_2Ruedas_2024_expositores.jpg" alt="Cabecera Feria Dos Ruedas" />
       </mj-column>
@@ -41,6 +70,7 @@
     <mj-section background-color="#E6313A" padding-top="20px" padding-bottom="20px">
       <mj-column>
         <mj-text align="justify" color="#FFFFFF" font-family="Arial, sans-serif" font-size="18px" line-height="1.5">
+          <h2>Hola, {{nombre_destinatario}}</h2>
           <h2 style="color: #ffffff; font-size: 24px; line-height: 1.2">¿Eres un auténtico fanático de las motos? ¿Sueñas con sentir la adrenalina de las carreras en vivo? ¡La Feria Dos Ruedas hace tu sueño realidad!</h2>
           Tenemos una noticia que te hará <b>rugir de emoción</b>: ¡sorteamos <b>DOS ENTRADAS</b> para el Gran Premio de Motociclismo de Cheste! Sí, has leído bien, la oportunidad de vivir la vibrante atmósfera del circuito, escuchar el
           bramido de los motores y ver a tus ídolos en acción está a tu alcance.
@@ -106,18 +136,7 @@
         <mj-text align="center" color="#FFFFFF" font-family="Arial, sans-serif" font-size="16px" line-height="1.5">
           Imagina estar allí, viviendo cada curva, cada adelantamiento, cada grito de la afición. La emoción de Cheste te espera, y la Feria Dos Ruedas quiere llevarte.
         </mj-text>
-        <mj-button
-          href="https://dosruedas.feriavalencia.com/"
-          background-color="#2a2a2a"
-          border="2.5px solid white"
-          color="#fff"
-          font-size="20px"
-          font-weight="bold"
-          padding="15px 30px"
-          border-radius="8px"
-          align="center"
-          padding-top="30px"
-        >
+        <mj-button href="https://dosruedas.feriavalencia.com/" background-color="#2a2a2a" border="2.5px solid white" color="#fff" font-size="20px" font-weight="bold" padding="15px 30px" border-radius="8px" align="center" padding-top="30px">
           ¡Participa aquí!
         </mj-button>
       </mj-column>
@@ -125,9 +144,7 @@
 
     <mj-section padding-top="0px" background-color="#2a2a2a" padding="20px 0">
       <mj-column padding-top="20px">
-        <mj-text align="center" font-size="14px" color="#ffffff" font-family="Montserrat, sans-serif" padding-bottom="15px">
-          ¡Nos vemos en la Feria Dos Ruedas y, quizás, en Cheste!
-        </mj-text>
+        <mj-text align="center" font-size="14px" color="#ffffff" font-family="Montserrat, sans-serif" padding-bottom="15px"> ¡Nos vemos en la Feria Dos Ruedas y, quizás, en Cheste! </mj-text>
         <mj-social font-size="18px" icon-size="32px" mode="horizontal" align="center" padding-bottom="15px">
           <mj-social-element name="facebook" href="https://www.facebook.com/ExpoJoveFV" background-color="#3b5998"></mj-social-element>
           <mj-social-element name="instagram" href="https://www.instagram.com/expojove_valencia/" background-color="#C13584"></mj-social-element>
