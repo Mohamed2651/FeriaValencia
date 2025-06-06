@@ -60,10 +60,10 @@
 
     <mj-section>
       <mj-column>
-        <mj-text padding-bottom="0px">
+        <mj-image padding="0px" src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/MOTO2RUEDAS/Cabecera_mail_2Ruedas_2024_expositores.jpg" alt="Cabecera Feria Dos Ruedas" />
+      <mj-text padding-bottom="0px">
           <h1 align="center" style="color: #e6313a; font-family: Arial, sans-serif; font-size: 32px; line-height: 1.2">¡Velocidad y emoción te esperan!</h1>
         </mj-text>
-        <mj-image padding="0px" src="https://imagenes-publicas-mjml.s3.us-east-1.amazonaws.com/MOTO2RUEDAS/Cabecera_mail_2Ruedas_2024_expositores.jpg" alt="Cabecera Feria Dos Ruedas" />
       </mj-column>
     </mj-section>
 
